@@ -15,6 +15,7 @@ Storage: Ceph provided with OpenShift Data Foundation
 6. SSH client.
 7. Hosts file with entries based on an example below - IP addresses and FQDNs will be provided by e-mail.
 ```
+10.XX.XX.XX	api.yyy.yyy.yy
 10.XX.XX.XX	console-openshift-console.apps.yyy.yyy.yy
 10.XX.XX.XX	oauth-openshift.apps.yyy.yyy.yy
 10.XX.XX.XX	default-route-openshift-image-registry.apps.yyy.yyy.yy
@@ -29,15 +30,19 @@ OCP cluster API: https://api.yyy.yyy.yy:6443
 
 OCP console: https://console-openshift-console.apps.yyy.yyy.yy
 
-Lab workstation: 10.ZZ.ZZ.ZZ
+OCP cluster registry: https://default-route-openshift-image-registry.apps.yyy.yyy.yy
+
+Lab workstation: ssh labuserX@10.ZZ.ZZ.ZZ
 
 # Labs
 
 * [01 Working with OpenShift cluster ](01-openshift-cluster.md)
 
-* [02 Build and deploy simple application using GUI](02-app-build.md)
+* [02 Working with OpenShift cluster registry ](02-openshift-registry.md)
 
-* [03 Deploy application from custom image](03-custom-image.md)
+* [03 Build and deploy simple application using GUI](03-app-build.md)
 
-* [04 Deploy an apllication with persistent volume](04-pvolume.md)
+* [04 Deploy application from custom image](04-custom-image.md)
+
+* [05 Deploy an apllication with persistent volume](05-pvolume.md)
 
