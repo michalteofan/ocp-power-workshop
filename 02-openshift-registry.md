@@ -12,7 +12,7 @@ $ ssh labuserX@10.ZZ.ZZ.ZZ
 Login to OCP cluster as an labuserX, where X is your lab user number and to cluster registry:
 ```
 oc login -u labuserX -p https://api.yyy.yyy.yy:6443
-podman login -u labuserX -p $(oc whoami -t) default-route-openshift-image-registry.apps.p8.iic.pl.ibm.com
+podman login -u labuserX -p $(oc whoami -t) default-route-openshift-image-registry.apps.yyy.yyy.yy
 ```
 
 ## Pull container image from docker.io and push the image to cluster registry
@@ -25,10 +25,10 @@ podman image ls
 
 Tag the image for cluster internal repository:
 ```
-podman tag docker.io/library/ubuntu default-route-openshift-image-registry.apps.p8.iic.pl.ibm.com/labuserX/ubuntu
+podman tag docker.io/library/ubuntu default-route-openshift-image-registry.apps.yyy.yyy.yy/labuserX/ubuntu
 ```
 
 Push the image to cluster internal repository:
 ```
-podman push default-route-openshift-image-registry.apps.p8.iic.pl.ibm.com/labuserX/ubuntu
+podman push default-route-openshift-image-registry.apps.yyy.yyy.yy/labuserX/ubuntu
 ```
