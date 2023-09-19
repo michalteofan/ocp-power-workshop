@@ -119,7 +119,7 @@ oc expose svc/labuserXapp2 --hostname=labuserXapp2-labuserX.apps.yyy.yyy.yy
 oc get route
 ```
 
-Check if the application works with web browser or curl:
+Check if the application works using web browser or curl:
 ```
 curl http://labuserXapp2-labuserX.apps.yyy.yyy.yy
 ```
