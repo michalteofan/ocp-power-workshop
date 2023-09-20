@@ -40,9 +40,8 @@ Lab workstation: ssh labuserX@10.ZZ.ZZ.ZZ
 
 * [02 Working with OpenShift cluster registry ](02-openshift-registry.md)
 
-* [03 Build and deploy simple application using GUI](03-app-build.md)
+* [03 Building and deploying simple application using GUI](03-app-build.md)
 
-* [04 Deploy application from custom image](04-custom-image.md)
+* [04 Deploying application from custom image](04-custom-image.md)
 
-* [05 Deploy an apllication with persistent volume](05-pvolume.md)
-
+* [05 Deploying an application with persistent volume](05-pvolume.md)

@@ -1,4 +1,4 @@
-# Build and deploy simple application using GUI
+# Building and deploying simple application using GUI
 
 Login to Openshift console as labuserX, where X is your lab user number:
 https://console-openshift-console.apps.yyy.yyy.yy/

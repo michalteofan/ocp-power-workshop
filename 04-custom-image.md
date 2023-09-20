@@ -1,6 +1,6 @@
-# Deploy application from custom image
+# Deploying application from custom image
 
-## Build and deploy the image
+## Building and deploying custom image
 
 Login to lab workstation as labuserX, where X is your lab user number:
 ```
@@ -133,7 +133,7 @@ oc get pods -o wide
 oc get deployment
 ```
 
-## Update the application
+## Updating the application
 
 Update index.html file:
 ```

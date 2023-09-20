@@ -1,6 +1,6 @@
-# Deploy an apllication with persistent volume
+# Deploying an apllication with persistent volume
 
-## Deploy an apllication with persistent volume using Openshift template...
+## Deploying an apllication with persistent volume using Openshift template...
 
 Login to OCP as labuserX, where X is your lab user number, e.g. labuser1:
 ```
@@ -51,7 +51,7 @@ Create sql dump file michal.sql:
 ```
 -- MySQL dump 10.17  Distrib 10.3.22-MariaDB, for Linux (ppc64le)
 --
--- Host: nm.iic.pl.ibm.com    Database: michal
+-- Host: nm.iic         Database: michal
 -- ------------------------------------------------------
 -- Server version	10.4.12-MariaDB-1:10.4.12+maria~bionic
 
