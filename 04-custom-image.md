@@ -12,7 +12,7 @@ Clone git repo:
 git clone https://github.com/michalteofan/labuser0.git
 ```
 
-Change directory to labuserX
+Change directory to labuser0
 ```
 cd labuser0/
 ```
@@ -84,7 +84,7 @@ podman tag labuserXapp2:v1 default-route-openshift-image-registry.apps.yyy.yyy.y
 
 Login to cluster registry and push the image:
 ```
-oc login -u labuser0 https://api.yyy.yyy.yy:6443
+oc login -u labuserX https://api.yyy.yyy.yy:6443
 podman login -u $(oc whoami) -p $(oc whoami -t) default-route-openshift-image-registry.apps.yyy.yyy.yy
 podman push default-route-openshift-image-registry.apps.yyy.yyy.yy/labuserX/labuserXapp2:v1
 ```
