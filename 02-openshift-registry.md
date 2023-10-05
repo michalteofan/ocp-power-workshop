@@ -15,6 +15,11 @@ oc login -u labuserX -p https://api.yyy.yyy.yy:6443
 podman login -u labuserX -p $(oc whoami -t) default-route-openshift-image-registry.apps.yyy.yyy.yy
 ```
 
+## Create project for labuserX
+```
+oc new-project labuserX
+```
+
 ## Pull container image from docker.io and push the image to cluster registry
 
 Pull Fedora linux image:
