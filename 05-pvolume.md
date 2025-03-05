@@ -1,6 +1,6 @@
-# Deploying an apllication with persistent volume
+# Deploying an application with persistent volume
 
-## Deploying an apllication with persistent volume using Openshift template...
+## Deploying an application with persistent volume using Openshift template...
 
 Login to OCP as labuserX, where X is your lab user number, e.g. labuser1:
 ```
