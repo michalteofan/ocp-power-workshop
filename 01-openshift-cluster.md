@@ -11,7 +11,7 @@ $ ssh labuserX@10.ZZ.ZZ.ZZ
 
 Login to OCP cluster as an cluster admin - michal:
 ```
-oc login -u michal -p https://api.yyy.yyy.yy:6443
+oc login -u michal https://api.yyy.yyy.yy:6443
 ```
 
 Check cluster status with following commands and review the outputs:
