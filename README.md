@@ -45,3 +45,5 @@ Lab workstation: ssh labuserX@10.ZZ.ZZ.ZZ
 * [04 Deploying application from custom image](04-custom-image.md)
 
 * [05 Deploying an application with persistent volume](05-pvolume.md)
+  
+* [06 Troubleshooting](06-troubleshooting.md)
