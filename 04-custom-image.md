@@ -6,6 +6,11 @@ Login to lab workstation as labuserX, where X is your lab user number:
 ```
 $ ssh labuserX@10.ZZ.ZZ.ZZ
 ```
+Set project to labuserX
+
+```
+oc project labuserX
+```
 
 Clone git repo:
 ```
