@@ -203,7 +203,7 @@ spec:
       name: mydb
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: openshift-storage.rbd.csi.ceph.com
+      storageClassName: ibm-spectrum-scale-backup
       resources:
         requests:
           storage: 10Gi
