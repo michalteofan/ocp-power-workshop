@@ -11,7 +11,7 @@ $ ssh labuserX@10.ZZ.ZZ.ZZ
 
 Login to OCP cluster as an labuserX, where X is your lab user number and to cluster registry:
 ```
-oc login -u labuserX -p https://api.yyy.yyy.yy:6443
+oc login -u labuserX https://api.yyy.yyy.yy:6443
 podman login -u labuserX -p $(oc whoami -t) default-route-openshift-image-registry.apps.yyy.yyy.yy
 ```
 
