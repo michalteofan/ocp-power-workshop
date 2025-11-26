@@ -42,6 +42,8 @@ oc rsh pod/mariadb-1-XXXXXX
 Check if the volume is mounted to the pod
 ```
 mount | grep mysql
+
+exit
 ```
 
 ## ...or more in K8s way
